@@ -1,4 +1,4 @@
-import React from "react";
+// @ts-nocheck
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import APropos from "../pages/APropos";
