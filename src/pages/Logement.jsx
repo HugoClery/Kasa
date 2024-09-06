@@ -7,7 +7,7 @@ import tableau from "../data/data.json";
 import Carousel from "../components/Carousel/Carousel.jsx";
 import Collapsible from "../components/collapsible/Collapsible";
 import Rating from "../components/Rating/Rating.jsx";
-
+import Error from "./Error.jsx";
 function DataLogement({
   pictures,
   title,
@@ -72,9 +72,9 @@ function Logement() {
   const logement = tableau.find((logement) => {
     return logement.id === logementId;
   });
-  // if (!logement) {
-  //   return <Error />;
-  // }
+  if (!logement) {
+    return <Error />;
+  }
 
   return <DataLogement {...logement} />;
 }
