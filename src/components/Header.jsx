@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import LOGO from "../assets/LOGO.png";
 
 function Header() {
@@ -9,7 +9,6 @@ function Header() {
         <img src={LOGO} alt="logo Kasa" />
         <span className="header_nav">
           <Link to="/">Accueil</Link>
-          <NavLink to="/a-propos">Logement</NavLink>
           <Link to="/a-propos">À propos</Link>
         </span>
       </div>

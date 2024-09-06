@@ -12,6 +12,15 @@ function APropos() {
         <Collapsible key="1" label="Fiabilité">
           <p className="desc_p">En toute tranquilité</p>
         </Collapsible>
+        <Collapsible key="1" label="Respect">
+          <p className="desc_p">En toute tranquilité</p>
+        </Collapsible>
+        <Collapsible key="1" label="Service">
+          <p className="desc_p">En toute tranquilité</p>
+        </Collapsible>
+        <Collapsible key="1" label="Sécurité">
+          <p className="desc_p">En toute tranquilité</p>
+        </Collapsible>
       </div>
     </div>
   );
