@@ -17,21 +17,21 @@ function APropos() {
             régulièrement vérifiées par nos équipes.
           </p>
         </Collapsible>
-        <Collapsible key="1" label="Respect">
+        <Collapsible key="2" label="Respect">
           <p className="desc_p">
             La bienveillance fait partie des valeurs fondatrices de Kasa. Tout
             comportement discriminatoire ou de perturbation du voisinage
             entraînera une exclusion de notre plateforme.
           </p>
         </Collapsible>
-        <Collapsible key="1" label="Service">
+        <Collapsible key="3" label="Service">
           <p className="desc_p">
             Nos équipes se tiennent à votre disposition pour vous fournir une
             expérience parfaite. N'hésitez pas à nous contacter si vous avez la
             moindre question.
           </p>
         </Collapsible>
-        <Collapsible key="1" label="Sécurité">
+        <Collapsible key="4" label="Sécurité">
           <p className="desc_p">
             La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que
             pour les voyageurs, chaque logement correspond aux critères de
