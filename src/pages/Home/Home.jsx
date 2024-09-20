@@ -1,7 +1,8 @@
 // @ts-nocheck
 
-import Falaise from "../assets/falaise.png";
-import CardsLogements from "../components/Cards/CardsLogements";
+import Falaise from "../../assets/falaise.png";
+import CardsLogements from "../../components/Cards/CardsLogements";
+import "./home.scss";
 
 function Home() {
   return (

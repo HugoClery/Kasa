@@ -1,6 +1,7 @@
 // @ts-nocheck
 import { Link } from "react-router-dom";
-import LOGO from "../assets/LOGO.png";
+import LOGO from "../../assets/LOGO.png";
+import "./header.scss";
 
 function Header() {
   return (

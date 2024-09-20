@@ -3,11 +3,13 @@
 // @ts-nocheck
 
 import { useParams } from "react-router-dom";
-import tableau from "../data/data.json";
-import Carousel from "../components/Carousel/Carousel.jsx";
-import Collapsible from "../components/collapsible/Collapsible";
-import Rating from "../components/Rating/Rating.jsx";
-import Error from "./Error.jsx";
+import tableau from "../../data/data.json";
+import Carousel from "../../components/Carousel/Carousel.jsx";
+import Collapsible from "../../components/collapsible/Collapsible.jsx";
+import Rating from "../../components/Rating/Rating.jsx";
+import Error from "../Error/Error.jsx";
+import "./logement.scss";
+
 function DataLogement({
   pictures,
   title,

@@ -1,9 +1,9 @@
 // @ts-nocheck
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import APropos from "../pages/APropos";
-import Logement from "../pages/Logement";
-import Error from "../pages/Error";
+import Home from "../pages/Home/Home";
+import APropos from "../pages/A-propos/APropos";
+import Logement from "../pages/Logement/Logement";
+import Error from "../pages/Error/Error";
 
 function Router() {
   return (

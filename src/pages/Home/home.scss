@@ -1,3 +1,5 @@
+@import "../../style/utils/variables.scss";
+
 .img_banner_home {
   margin: auto;
   max-width: 1440px;
@@ -107,5 +109,13 @@
   }
   @media screen and (max-width: 768px) {
     height: 250px;
+  }
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 0 10px;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
   }
 }

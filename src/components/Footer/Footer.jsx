@@ -1,6 +1,7 @@
 // @ts-nocheck
-import Kasa from "../assets/kasa.png";
-import LogoWhite from "../assets/LOGO_white.png";
+import Kasa from "../../assets/kasa.png";
+import LogoWhite from "../../assets/LOGO_white.png";
+import "./footer.scss";
 
 function Footer() {
   return (

@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // @ts-nocheck
-import Montagne from "../assets/montagne.png";
-import Collapsible from "../components/collapsible/Collapsible";
+import Montagne from "../../assets/montagne.png";
+import Collapsible from "../../components/collapsible/Collapsible";
+import "./a-propos.scss";
 
 function APropos() {
   return (

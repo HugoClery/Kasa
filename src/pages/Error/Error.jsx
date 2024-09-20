@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 // @ts-nocheck
 import { Link } from "react-router-dom";
-import Error404 from "../assets/error.png";
+import Error404 from "../../assets/error.png";
+import "./error.scss";
 
 function Error() {
   return (
