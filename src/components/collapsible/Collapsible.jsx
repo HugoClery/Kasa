@@ -20,8 +20,6 @@ const Collapsible = (props) => {
   const click = () => {
     toggleOpening();
     handleRotate();
-    console.log("click open", isOpen);
-    console.log("click arrow", rotateArrow);
   };
 
   return (
